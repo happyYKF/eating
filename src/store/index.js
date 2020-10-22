@@ -1,15 +1,14 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-
-Vue.use(Vuex)
+import Vue from 'vue';
+import Vuex from 'vuex';
+import users from './users/index';
+import Citylocation from "./Citylocation"
+Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+  state: {},
+  mutations: {},
+  actions: {},
   modules: {
-  }
-})
+    users,Citylocation
+  },
+});
